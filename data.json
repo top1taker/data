@@ -1,0 +1,110 @@
+{
+    "RelationshipRoleType": {
+        "code": "string",
+        "description": "string"
+    },
+
+    "PersonRelationship": {
+        "personID1": "string",
+        "personID2": "string",
+        "fromDate": "date",
+        "toDate": "date"
+    },
+
+    "Language": {
+        "code": "string",
+        "name": "string"
+    },
+
+
+    "LanguageRelationship": {
+        "languageCode1": "string",
+        "languageCode2": "string",
+        "description": "string"
+    },
+
+    "Address": {
+        "id": "string"
+    },
+
+    "SalutationType": {
+        "code": "string",
+        "description": "string"
+    },
+
+    "Salutation": {
+        "salutationTypeCode": "string",
+        "personID": "string",
+        "fromDate": "date",
+        "toDate": "date"
+    },
+
+    "Gender": {
+        "code": "string",
+        "description": "string"
+    },
+
+    "Person": {
+        "id": "string",
+        "lastName": "string",
+        "middleName": "string",
+        "firstName": "string",
+        "birthName": "string",
+        "dateOfBirth": "date",
+        "dateOfDeath": "date",
+        "religiousName": "string",
+        "pseudonym": "string",
+        "genderCode": "string",
+        "birthAddressID": "string",
+        "livingAddressID": "string"
+    },
+
+    "Citizen": {
+        "personID": "string",
+        "countryCode": "string",
+        "fromDate": "date",
+        "toDate": "date"
+    },
+
+    "MaritalStatusType": {
+        "code": "string",
+        "description": "string"
+    },
+
+    "MaritalStatus": {
+        "personID": "string",
+        "maritalStatusTypeCode": "string",
+        "fromDate": "date",
+        "toDate": "date"
+    },
+
+    "WeightAndLength": {
+        "fromDate": "date",
+        "personID": "string",
+        "weightValue": "number",
+        "lengthValue": "number"
+    },
+
+    "Identification": {
+        "personID": "string",
+        "countryCode": "string",
+        "number": "number",
+        "numberFromDate": "date",
+        "numberToDate": "date"
+    },
+
+    "Country": {
+        "code": "string",
+        "name": "string"
+    },
+
+    "Passport": {
+        "id": "string",
+        "number": "number",
+        "ExpiryDate": "date",
+        "personID": "string",
+        "countryCode": "string",
+        "citizenFromDate": "string"
+    }
+
+}
