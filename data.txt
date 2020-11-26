@@ -1,0 +1,89 @@
+RelationshipRoleType: Table
+RelationshipRoleTypeCode
+Description
+
+PersonRelationship: Table
+PersonID1
+PersonID2
+PersonRelationshipFromDate
+ToDate
+
+Language: Table
+LanguageCode
+Name
+
+LanguageRelationship: Table
+LanguageCode1
+LanguageCode2
+Description
+
+Address: Table
+AddressID
+
+SalutationType: Table
+SalutationTypeCode
+Description
+
+Salutation: Table
+SalutationTypeCode
+PersonID
+SalutationFromDate
+ToDate
+
+Gender: Table
+GenderCode
+Description
+
+Person: Table
+PersonID
+LastName
+MiddleName
+FirstName
+BirthName
+DateOfBirth
+DateOfDeath
+ReligiousName
+Pseudonym
+GenderCode
+BirthAddressID
+LivingAddressID
+
+Citizen: Table
+PersonID
+CountryCode
+CitizenFromDate
+ToDate
+
+MaritalStatusType: Table
+MaritalStatusTypeCode
+Description
+
+MaritalStatus: Table
+PersonID
+MaritalStatusTypeCode
+MaritalStatusFromDate
+ToDate
+
+WeightAndLength: Table
+WeightAndLengthFromDate
+PersonID
+WeightValue
+LengthValue
+
+Identification: Table
+PersonID
+CountryCode
+IdentificationNumber
+IdentificationNumberFromDate
+ToDate
+
+Country: Table
+CountryCode
+Name
+
+Passport: Table
+PassportID
+ExpiryDate
+PersonID
+CountryCode
+CitizenFromDate
